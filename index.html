@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevAdrian Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b6f818d91b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <header>
+           <div class="logo">
+               <img src="images/mylogo.png" alt="site_logo">
+           </div>
+           <button class="nav-toggle" aria-label="toggle navigation">
+               <span class="hamburger"></span>
+           </button>
+           <nav class="nav">
+               <ul class="nav__list">
+                   <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                   <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                   <li class="nav__item"><a href="#about-me" class="nav__link">About Me</a></li>
+                   <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+               </ul>
+           </nav>
+       </header> 
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Adrian Denis</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
+        <img src="images/Adrian_Smiling.jpg" alt="a picture of Adrian smiling" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>HTML & CSS Responsive Web Design</h3>
+                <p>Enterprise-class websites need consistent colors, fonts, and design to match the organization's branding guidelines. Toptal’s front-end developers are experts at designing responsive websites, with CSS at the core of front end development alongside JavaScript and HTML.</p>
+            </div><!-- service -->
+
+            <div class="service">
+                <h3>React JS Development</h3>
+                <p>ReactJS is renowned for its extensibility, adjustability, and convenience. Toptal ReactJS developers create complex software for your business, including web browsers and mobile application user interfaces.</p>
+            </div><!-- service -->
+
+            <div class="service">
+                <h3>Node.js Development</h3>
+                <p>Node.js enables fast and scalable server-side and networking applications. Toptal Node.js developers produce dynamic web page content before the page is sent to the end user's web browser, using event-driven programming to communicate with web servers through speedy JavaScript interpreters.</p>
+            </div><!-- service -->
+        </div><!-- services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about-me">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & Developer based in Nairobi</p>
+
+        <div class="about-me__body">
+            <p>I have a Bachelor of Science in Business Infomration Technology from Strathmore University, and my primary focus and inspiration for my studies is Web Development.</p>
+            <p>In my free time, I study human computer interface and the psychology of human computer interaction. I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques. I am very passionate about Web Development, and strive to better myself as a developer, and the development community as a whole.</p>
+        </div>
+        <img src="images/aboutme_stand.jpg" alt="about_me_image" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio Item 01 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port1.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 02 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port2.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 03 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port3.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 04 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port4.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 05 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port5.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 06 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port6.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 07 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port7.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 08 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port8.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 09 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port9.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item 0 0 -->
+            <a href="" class="portfolio__item">
+                <img src="images/port10.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:adrian.denis@strathmore.edu" class="footer__link">adrian.denis@strathmore.edu</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://codepen.io" class="social-list__link"><i class="fab fa-codepen"></i></a></li>
+            <li class="social-list__item"><a href="https://twitter.com" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list__item"><a href="https://github.com" class="social-list__link"><i class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a href="https://dribble.com" class="social-list__link"><i class="fab fa-dribbble"></i></a></li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+    </body>
+
+</html>
